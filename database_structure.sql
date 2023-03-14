@@ -34,6 +34,24 @@ CREATE TABLE `services` (
   `image` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `services`
+--
+
+INSERT INTO `services` (`id`, `counter`, `category`, `image`) VALUES
+(1, '01', 'Edukim', 'education.jpg'),
+(2, '02', 'Pastrim', 'cleaning.jpg'),
+(3, '03', 'Teknologji', 'tech.jpg'),
+(5, '04', 'Ekonomi', 'banking.jpg'),
+(6, '05', 'Call Center', 'call-center.jpg'),
+(8, '06', 'Mjekësi', 'nursing.jpg'),
+(9, '07', 'Juridik', 'juridic.jpg'),
+(10, '08', 'Arkitekturë', 'architecture.jpg'),
+(11, '09', 'Bujqësi', 'agriculture.jpg'),
+(12, '10', 'Ndërtimtari', 'construction.jpg'),
+(13, '11', 'Dizajn i modës', 'design.jpg'),
+(14, '12', 'Parukeri', 'hairdresser.jpg');
+
 -- --------------------------------------------------------
 
 --
