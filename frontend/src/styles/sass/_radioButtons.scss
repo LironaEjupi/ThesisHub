@@ -1,0 +1,37 @@
+.radio {
+    display: block;
+    cursor: pointer;
+    input {
+        display: none;
+        &+span {
+            display: inline-block;
+            position: relative;
+            padding-left: 30px;
+            line-height: 17px;
+            &::before {
+                content: " ";
+                border: 2px solid #735e59;
+                width: 19px;
+                height: 19px;
+                display: block;
+                position: absolute;
+                left: 0;
+            }
+            &::after {
+                content: " ";
+                height: 9px;
+                width: 9px;
+                background: #735e59;
+                display: block;
+                position: absolute;
+                left: 5px;
+                top: 5px;
+                opacity: 0;
+            }
+        }
+        &:checked+span:after {
+            transition: 0.5s ease-out;
+            opacity: 1;
+        }
+    }
+}

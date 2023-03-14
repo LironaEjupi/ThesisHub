@@ -1,0 +1,5 @@
+flask
+mysql
+mysql.connector
+flask_jwt_extended
+StringGenerator
