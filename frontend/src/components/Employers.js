@@ -45,6 +45,7 @@ function Employers(props) {
 			if (res.ok) {
 				res.json().then(profile => {
 					let data = profile.data;
+					console.log(data)
 					setProfileData(data);
 				});
 			} else {
@@ -73,6 +74,7 @@ function Employers(props) {
 						/>
 					</div>
 					{filteredUser.slice(0, visibleUsers).map(data => {
+						console.log(filteredUser)
 						return (
 							<div className="col-6 col-lg-4" key={data.id}>
 								<div className="services-container relative mb-6 animate" key={data.id}>

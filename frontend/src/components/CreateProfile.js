@@ -123,17 +123,17 @@ if(!open) return null
 							<input type="date" className='block border p-1 mb-2 w-full' name='birthdate' placeholder="Ditelindja" value={profileData['birthdate']} onChange={handleChange} />
 							<p>Kategoria:</p>
 							<select name="categories" className='block border p-1 mb-2 w-full' id="categories" value={profileData['category']} onChange={(e) => setProfileData({...profileData, 'category': e.target.value})} required>
-							<option value="Mjekesi">Mjekësi</option>
+							<option value="Mjekësi">Mjekësi</option>
 							<option value="Ekonomi">Ekonomi</option>
-							<option value="Bujqesi">Bujqësi</option>
+							<option value="Bujqësi">Bujqësi</option>
 							<option value="Teknologji">Teknologji</option>
 							<option value="Edukim">Edukim</option>
 							<option value="Juridik">Juridik</option>
-							<option value="Arkitekture">Arkitekturë</option>
+							<option value="Arkitekturë">Arkitekturë</option>
 							<option value="Call Center">Call Center</option>
-							<option value="Ndertimtari">Ndërtimtari</option>
+							<option value="Ndërtimtari">Ndërtimtari</option>
 							<option value="Pastrim">Pastrim</option>
-							<option value="Dizajn i modes">Dizajn i modës</option>
+							<option value="Dizajn i modës">Dizajn i modës</option>
 							<option value="Parukeri">Parukeri</option>
 							<option value="Tjera">Tjera</option>
 							</select>

@@ -7,13 +7,13 @@ function FilterByLocation(props) {
 	return (
 		<select name="location" className="mb-5 font-bold text-md text-light-brown" onChange={onFilter}>
 				<option value="Lokacioni">Në të gjithë Kosovën</option>
-				<option value="Prishtine">Prishtinë</option>
+				<option value="Prishtinë">Prishtinë</option>
 				<option value="Ferizaj">Ferizaj</option>
 				<option value="Gjilan">Gjilan</option>
-				<option value="Gjakove">Gjakovë</option>
+				<option value="Gjakovë">Gjakovë</option>
 				<option value="Prizren">Prizren</option>
-				<option value="Mitrovice">Mitrovicë</option>
-				<option value="Peje">Pejë</option>
+				<option value="Mitrovicë">Mitrovicë</option>
+				<option value="Pejë">Pejë</option>
 		</select>
 	);
 }
